@@ -94,11 +94,11 @@ def play(board)
     turn(board)
   end
 if won?(board)
-<<<<<<< HEAD
+
   puts "Congratulations #{winner(board)}!"
-=======
+
   puts "Congratulations, #{winner(board)}!"
->>>>>>> 132ba9ff560ba6dfda586485cf65407d450b3d56
+
 else
   puts "Cat's Game!"
 end
