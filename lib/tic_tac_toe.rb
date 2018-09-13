@@ -4,8 +4,11 @@ WIN_COMBINATIONS = [
   [6,7,8],
   [0,3,6],
   [1,4,7],
+<<<<<<< HEAD
   [2,5,8],
+=======
   [2,5,7],
+>>>>>>> 132ba9ff560ba6dfda586485cf65407d450b3d56
   [0,4,8],
   [2,4,6]
 ]
@@ -94,11 +97,11 @@ def play(board)
     turn(board)
   end
 if won?(board)
-
+<<<<<<< HEAD
   puts "Congratulations #{winner(board)}!"
-
+=======
   puts "Congratulations, #{winner(board)}!"
-
+>>>>>>> 132ba9ff560ba6dfda586485cf65407d450b3d56
 else
   puts "Cat's Game!"
 end
